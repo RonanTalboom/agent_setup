@@ -129,14 +129,6 @@ The Model Context Protocol (MCP) enhances AI-assisted development by providing a
 
 * **Sequential Thinking MCP**: For breaking down complex Rust programming problems into sequential steps, especially helpful for challenging algorithms or systems programming tasks.
 
-### Setting Up MCP for Your Rust Project
-
-1. Copy the `mcp/mcpServers.json` configuration file to your project.
-2. Install the required dependencies:
-   ```bash
-   npm install @playwright/mcp @upstash/context7-mcp @modelcontextprotocol/server-sequential-thinking
-   ```
-3. Reference these configurations in your development environment to enhance GitHub Copilot's capabilities when working with Rust code.
 
 ### Benefits for Rust Development
 
