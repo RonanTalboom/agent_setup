@@ -2,6 +2,8 @@
 
 Welcome! This repository is a Rust-based application that emphasizes performance, reliability, and memory safety. It leverages Rust's strong type system and ownership model to prevent common bugs like null pointer dereferences and data races at compile time. We appreciate your contributions and ask that you follow the guidelines below to maintain code quality and consistency.
 
+This repository utilizes the Model Context Protocol (MCP) to enable AI-assisted development, providing additional context and capabilities for GitHub Copilot and other AI tools when working with Rust codebases.
+
 ## 📌 Code Standards
 
 ### ✅ Required Before Each Commit
@@ -114,6 +116,33 @@ Avoid assigning complex, ambiguous, or sensitive tasks that require deep domain 
 * **Prompt Engineering:** When interacting with Copilot, craft thoughtful prompts. Be specific about requirements and provide examples when possible to guide Copilot towards desired outcomes.
 
 * **Stay Informed:** Keep up-to-date with Copilot's features and best practices by referring to the [official documentation](https://docs.github.com/en/copilot/using-github-copilot).
+
+## 🔄 Model Context Protocol (MCP) Integration
+
+The Model Context Protocol (MCP) enhances AI-assisted development by providing additional context to AI models like GitHub Copilot. This repository integrates with several MCP servers that can be leveraged during Rust development:
+
+### Available MCP Servers
+
+* **Playwright MCP**: For browser automation and testing of web applications created with Rust web frameworks like Actix Web or Rocket.
+
+* **Context7 MCP**: For enhanced context-aware AI responses, particularly useful when developing complex Rust applications with intricate dependency structures.
+
+* **Sequential Thinking MCP**: For breaking down complex Rust programming problems into sequential steps, especially helpful for challenging algorithms or systems programming tasks.
+
+### Setting Up MCP for Your Rust Project
+
+1. Copy the `mcp/mcpServers.json` configuration file to your project.
+2. Install the required dependencies:
+   ```bash
+   npm install @playwright/mcp @upstash/context7-mcp @modelcontextprotocol/server-sequential-thinking
+   ```
+3. Reference these configurations in your development environment to enhance GitHub Copilot's capabilities when working with Rust code.
+
+### Benefits for Rust Development
+
+* **Enhanced Context Understanding**: MCP helps Copilot better understand Rust's ownership model, lifetimes, and borrowing rules.
+* **Improved Suggestions**: Get more accurate code suggestions that follow Rust idioms and best practices.
+* **Sequential Problem Solving**: Break down complex Rust challenges into manageable steps.
 
 ---
 
