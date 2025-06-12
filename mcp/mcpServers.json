@@ -16,6 +16,11 @@
       ],
        "tools": ["*"]
     },
+    "taskmanager": {
+      "command": "npx",
+      "args": ["-y", "@kazuph/mcp-taskmanager"],
+      "tools": ["*"]
+    },
     "sequential-thinking": {
       "command": "npx",
       "args": [
