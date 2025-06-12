@@ -21,9 +21,15 @@ Before submitting a contribution, please ensure the following:
 
 ## 📁 Repository Structure
 
-* `instructions/`: Contains template instructions for different project structures.
+* `instructions/`: Contains template instructions for different project structures and AI coding assistants.
   * `nextjs/`: GitHub Copilot instructions specifically tailored for Next.js projects.
   * `rust/`: GitHub Copilot instructions specifically tailored for Rust projects.
+  * `al/`: GitHub Copilot instructions specifically tailored for AL (Business Central) projects.
+  * `claude/`: Instructions and MCP setup for Claude AI coding assistant.
+  * `cline/`: Instructions and MCP setup for Cline VS Code extension.
+  * `cursor/`: Instructions and MCP setup for Cursor AI code editor.
+  * `windsurf/`: Instructions and MCP setup for Windsurf AI IDE.
+  * `copilio/`: Instructions and MCP setup for Copilio AI coding assistant.
   * `template_for_agents.md`: General template for AI agent instructions.
   * Additional language/framework-specific directories (as they are added).
 * `mcp/`: Model Context Protocol configurations.
